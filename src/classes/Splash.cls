@@ -1,13 +1,12 @@
 public with sharing class Splash {
-  public String slug;
-  public String subject;
-  public String email;
-  public String message;
-  public String imgUrl;
+  
+  private String slug;
+  private String subject;
+  private String email;
+  private String message;
+  private String imgUrl;
 
-  public Splash(){
-
-  }
+  public Splash(){ }
 
   public Splash(String slug, String subject, String message) {
     this.slug = slug;
