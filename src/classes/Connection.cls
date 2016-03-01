@@ -37,12 +37,8 @@ public with sharing class Connection {
     req.setHeader('Authorization', 'Bearer ' + this.apiKey);
     req.setHeader('Content-Type', 'application/json');
     req.setBody(JSON.serializePretty(splash));
-
-    system.debug(JSON.serializePretty(splash));
-
-    if (!Test.isRunningTest()) return h.send(req);
-
-    return null;
+  
+    return h.send(req);
   }
 
   private static void validateSplash(Splash splash) {
