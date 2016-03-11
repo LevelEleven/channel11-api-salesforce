@@ -50,7 +50,7 @@ by LevelEleven support. This defaults to the proper endpoint
 at https://app.leveleleven.com
 
 
-### `connection.sendSplash(<Splash splash>)`
+### `connection.sendSplashMessage(<Splash splash>)`
 
 Sends a Splash object to Channel11 via https
 
