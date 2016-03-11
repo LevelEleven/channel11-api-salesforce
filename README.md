@@ -32,7 +32,7 @@ bigDealSplash.setSubject('Big Deal!');
 bigDealSplash.setMessage('Johnny D just closed $50k at ABC Corp!');
 bigDealSplash.setImgUrl('http://i.giphy.com/KJg6Znn4V1Jcs.gif');
 
-conn.sendSplash(bigDealSplash);
+conn.sendSplashMessage(bigDealSplash);
 ```
 
 ## API
