@@ -14,14 +14,14 @@ public with sharing class Connection {
   }
 
   public Connection(String apiKey, String endpoint) {
+    this.apiKey = apiKey;
+    this.endpoint = endpoint;
     if(this.apiKey == null) {
       throw new ConnectionException('apiKey must not be null');
     }
     if(this.endpoint == null) {
       throw new ConnectionException('endpoint must not be null');
     }
-    this.apiKey = apiKey;
-    this.endpoint = endpoint;
   }
 
   public HttpResponse sendSplashMessage(Splash splash) {
