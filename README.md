@@ -105,7 +105,7 @@ the specified image will be shown.
 
 Arguments: 
 
-* `email`: [String:required] The user's email for the splash.
+* `email`: [String:optional] The user's email for the splash.
 
 ## Tips
 
